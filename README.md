@@ -5,3 +5,5 @@ Das Programm Calculator ist eine einfache Java-Klasse, die grundlegende arithmet
 * Subtraktion: Subtraktion einer ganzen Zahl von einer anderen. 
 * Multiplikation: Multiplizieren zweier ganzer Zahlen. 
 * Division: Eine ganze Zahl durch eine andere dividieren, mit Fehlerbehandlung bei Division durch Null.
+
+[![Java CI](https://github.com/keonakalaja/Calculator/actions/workflows/ci.yml/badge.svg)](https://github.com/keonakalaja/Calculator/actions/workflows/ci.yml)
