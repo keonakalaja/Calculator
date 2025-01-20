@@ -37,4 +37,9 @@ class CalculatorTest {
         assertNotEquals(4, calculator.divide(2, 4));
     }
 
+    @Test
+    void squareRoot() {
+        assertEquals(6, calculator.squareRoot(36));
+        assertNotEquals(10, calculator.squareRoot(16));
+    }
 }

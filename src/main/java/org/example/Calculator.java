@@ -16,7 +16,7 @@ public class Calculator {
         }
         return a / b;
     }
-
-
-
+    public double squareRoot(int a) {
+        return Math.sqrt(a);
+    }
 }
