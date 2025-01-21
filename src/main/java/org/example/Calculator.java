@@ -30,4 +30,11 @@ public class Calculator {
     public double calcCos(double angleInDegrees) {
         return Math.cos(Math.toRadians(angleInDegrees));
     }
+
+    public String calcToBinary(int a) {
+        if (a < 0) {
+            return "Input must be a non-negative integer.";
+        }
+        return Integer.toBinaryString(a);
+    }
 }
