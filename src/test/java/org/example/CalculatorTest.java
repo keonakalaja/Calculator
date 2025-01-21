@@ -42,4 +42,9 @@ class CalculatorTest {
         assertEquals(6, calculator.squareRoot(36));
         assertNotEquals(10, calculator.squareRoot(16));
     }
+
+    @Test
+    void power() {
+        assertEquals(4, calculator.power(2), "2 squared should be 4");
+    }
 }
