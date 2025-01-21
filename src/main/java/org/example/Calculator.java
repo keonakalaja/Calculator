@@ -23,5 +23,11 @@ public class Calculator {
     public int calcSquare(int a) {
         return a * a;
     }
+    public double calcSin(double angleInDegrees) {
+        return Math.sin(Math.toRadians(angleInDegrees));
+    }
 
+    public double calcCos(double angleInDegrees) {
+        return Math.cos(Math.toRadians(angleInDegrees));
+    }
 }
