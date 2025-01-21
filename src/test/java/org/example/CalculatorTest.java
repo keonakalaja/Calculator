@@ -42,4 +42,38 @@ class CalculatorTest {
         assertEquals(6, calculator.squareRoot(36));
         assertNotEquals(10, calculator.squareRoot(16));
     }
+
+    @Test
+    void calcSquare() {
+        assertEquals(9, calculator.calcSquare(3));
+        assertNotEquals(10, calculator.calcSquare(4));
+
+    }
+
+    @Test
+    void calcSin() {
+
+        assertEquals(0.5, calculator.calcSin(30), 0.0001);
+
+        assertEquals(0.0, calculator.calcSin(180), 0.0001);
+    }
+
+    @Test
+    void calcCos() {
+
+        assertEquals(1.0, calculator.calcCos(0), 0.0001);
+
+
+        assertEquals(0.5, calculator.calcCos(60), 0.0001);
+
+    }
+
+    @Test
+    void calcToBinary() {
+
+        assertEquals("101", calculator.calcToBinary(5));
+
+        assertEquals("11111111", calculator.calcToBinary(255));
+
+    }
 }
